@@ -10,16 +10,23 @@ public:
     Palindrome() = default;
     Palindrome(string filename);
     bool isPalindrome();
+    bool isPalindrome2();
+    bool isWordpalindrome();
 
 
     const string &getText() const {
         return text;
     }
 
+
+
 private:
     string text;
 
+
 };
+
+
 
 
 #endif //PALINDROME_PALINDROME_H

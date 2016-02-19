@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-    Palindrome p("text.txt");
-    cout << p.getText() << " is palindrome:";
-    cout << p.isPalindrome() << endl;
+    Palindrome p("long_text.txt");
+    cout << p.getText() << endl;;
+    cout << "is palindrome:" << p.isPalindrome2() << endl;
     return 0;
 }
