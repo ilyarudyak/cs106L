@@ -11,7 +11,7 @@ public:
     Palindrome(string filename);
     bool isPalindrome();
     bool isPalindrome2();
-    bool isWordpalindrome();
+    bool isWordPalindrome();
 
 
     const string &getText() const {

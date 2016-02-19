@@ -1,17 +1,22 @@
 #include "Palindrome.h"
 #include <fstream>
+#include <iostream>
+#include <vector>
+#include <sstream>
+
+using namespace std;
 
 bool isNotAlpha(char ch) {
     return !isalpha(ch);
+}
+bool isNotAlphaOrSpace(char ch) {
+    return !isalpha(ch) && !isspace(ch);
 }
 
 Palindrome::Palindrome(string filename) {
 
     ifstream in(filename);
-    string s;
-    while (in >> s) {
-        text += s;
-    }
+    getline(in, text);
 
 }
 
@@ -28,8 +33,37 @@ bool Palindrome::isPalindrome2() {
     return equal(textCopy.begin(), textCopy.begin() + textCopy.size() / 2,
                  textCopy.rbegin());
 }
+bool Palindrome::isWordPalindrome() {
+    string textCopy = text;
 
+    // remove punctuation
+    textCopy.erase(remove_if(textCopy.begin(), textCopy.end(),
+                             isNotAlphaOrSpace), textCopy.end());
 
-bool Palindrome::isWordpalindrome() {
-    return false;
+    // transform to upper case
+    transform(textCopy.begin(), textCopy.end(), textCopy.begin(), ::toupper);
+
+    // break up the input into a list of words
+    stringstream tokenizer(textCopy);
+    vector<string> tokens;
+    tokens.insert(tokens.begin(),
+                  istream_iterator<string>(tokenizer),
+                  istream_iterator<string>());
+
+    return equal(tokens.begin(), tokens.begin() + tokens.size() / 2,
+                 tokens.rbegin());
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
