@@ -53,6 +53,18 @@ private:
     const char kFoodTile  = '$';
     const char kSnakeTile = '*';
 
+    // Pause 0.1 seconds between frames
+    const double kWaitTime = 0.1;
+
+    /* The string used to clear the display before printing the game board.
+     * Windows systems should use "CLS"; Mac OS X or Linux users should use
+     * "clear" instead.
+     */
+    const string kClearCommand = "clear";
+
+    // 20% chance to turn each step.
+    const double kTurnRate = 0.2;
+
     vector<string> world;
     int numRows, numCols;
 
@@ -66,12 +78,18 @@ private:
     int numEaten;
 
     // helper functions
-    void loadWorld(string filename);
+    void loadWorld(string);
     void printWorld();
     void performAI();
     bool moveSnake();
     void pause();
     void displayResult();
+    PointT& getNextPosition(int, int);
+    bool crashed(PointT&);
+    bool randomChance(double);
+    bool inWorld(PointT&);
+    void placeFood();
+
 };
 
 

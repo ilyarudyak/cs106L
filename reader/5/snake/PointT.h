@@ -22,6 +22,15 @@ public:
         return col;
     }
 
+
+    void setRow(int row) {
+        PointT::row = row;
+    }
+
+    void setCol(int col) {
+        PointT::col = col;
+    }
+
 private:
     int row;
     int col;
