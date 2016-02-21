@@ -9,7 +9,18 @@
 Snake::Snake(string filename) : numEaten(0) {
     loadWorld(filename);
 }
+void Snake::runSimulation() {
+    while(numEaten < kMaxFood) {
+        printWorld();
+        performAI();
+        if(!moveSnake())
+            break;
+        pause();
+    }
+    displayResult();
+}
 
+// helper functions
 void Snake::loadWorld(string filename) {
 
     ifstream in(filename);
@@ -28,36 +39,18 @@ void Snake::loadWorld(string filename) {
     }
 
 }
-
-void Snake::runSimulation() {
+void Snake::printWorld() {
 
 }
+void Snake::performAI() {
 
+}
+bool Snake::moveSnake() {
+    return false;
+}
+void Snake::pause() {
 
+}
+void Snake::displayResult() {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

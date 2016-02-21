@@ -65,7 +65,13 @@ private:
 
     int numEaten;
 
+    // helper functions
     void loadWorld(string filename);
+    void printWorld();
+    void performAI();
+    bool moveSnake();
+    void pause();
+    void displayResult();
 };
 
 
