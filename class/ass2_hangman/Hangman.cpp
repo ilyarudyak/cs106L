@@ -4,12 +4,13 @@
 
 #include <stdlib.h>
 #include <iostream>
+#include <fstream>
 #include "Hangman.h"
 
 Hangman::Hangman(string filename) {
     srand ((unsigned int) time(NULL));
     loadWords(filename);
-    for (int i = 0; i < kWordLength; ++i) {
+    for (int i = 0; i < kWordSize; ++i) {
         wordPattern += "-";
     }
 }
@@ -26,9 +27,17 @@ void Hangman::play() {
 
 // helper functions
 void Hangman::loadWords(string filename) {
-    //TODO implement
+    ifstream in(filename);
+    string word;
+    while (in >> word) {
+        if (word.size() == kWordSize) {
+            wordList.push_back(toLower(word));
+        }
+    }
 }
 void Hangman::updateWords(char letter) {
+
+    wordFamilies.clear();
 
     string maxPattern;
     int maxLength = 0;
@@ -50,13 +59,38 @@ void Hangman::updateWords(char letter) {
     wordList = wordFamilies[maxPattern];
 
     // update word pattern
-    wordPattern = maxPattern;
+    updatePattern(maxPattern);
+
+    cout << wordPattern << " ";
+    printVector(wordList);
+    cout << endl;
 
 }
-string Hangman::buildPattern(string basic_string, char letter) {
-    //TODO implement
+string Hangman::buildPattern(string word, char letter) {
+    string result;
+    for (int i = 0; i < word.size(); ++i) {
+        if (word[i] == letter) {
+            result += letter;
+        } else {
+            result += '-';
+        }
+    }
+    return result;
 }
-
+const string Hangman::toLower(string word) {
+    transform(word.begin(), word.end(), word.begin(), ::tolower);
+    return word;
+}
+void Hangman::printVector(Hangman::WordVector words) {
+    copy(words.begin(), words.end(), ostream_iterator<string>(cout, " "));
+}
+void Hangman::updatePattern(string pattern) {
+    for (int i = 0; i < kWordSize; ++i) {
+        if (pattern[i] != '-') {
+            wordPattern[i] = pattern[i];
+        }
+    }
+}
 
 
 

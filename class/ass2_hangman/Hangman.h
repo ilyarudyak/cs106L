@@ -14,7 +14,7 @@ class Hangman {
 
 public:
 
-    const int kWordLength = 4;
+    const int kWordSize = 4;
     const int kNumberGuesses = 5;
 
     typedef map<string, vector<string>> WordMap;
@@ -25,6 +25,10 @@ public:
 
     void play();
 
+    // getters
+    const WordVector &getWordList() const {
+        return wordList;
+    }
 
 private:
 
@@ -36,6 +40,9 @@ private:
     void loadWords(string filename);
     void updateWords(char letter);
     string buildPattern(string word, char letter);
+    const string toLower(string word);
+    void printVector(WordVector words);
+    void updatePattern(string pattern);
 };
 
 
