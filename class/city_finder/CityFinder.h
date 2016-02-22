@@ -19,30 +19,44 @@ public:
     };
 
     typedef map<string, CityLocation> CityMap;
-    typedef multimap<double, string> CoordMap;
+    typedef map<double, string> CoordMap;
     typedef pair<string, CityLocation> City;
 
     CityFinder() = default;
-    CityFinder(string filename);
+    CityFinder(string filename, string city);
 
     // rough conversion from miles
     // to latitude/longitude degrees.
     const double kDegreesPerMile = 1.0 / 69.172;
 
+    double distance(City other);
+    void findNearbyCities(double radius);
+
     // getters
     const CityMap &getCityLookup() const {
         return cityLookup;
     }
+    const City &getCity() const {
+        return centerCity;
+    }
+    const CoordMap &getLatLookup() const {
+        return latLookup;
+    }
+    const CoordMap &getLonLookup() const {
+        return lonLookup;
+    }
 
 private:
 
-    City city;
+    City centerCity;
     CityMap cityLookup;
+    CoordMap latLookup;
+    CoordMap lonLookup;
 
     // helper functions
-    double distance(City&);
     void loadData(string);
-    CityLocation &makeCityLocation(string);
+    CityLocation makeCityLocation(string);
+    void populateLookupTables();
 };
 
 

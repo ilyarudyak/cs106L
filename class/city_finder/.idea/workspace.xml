@@ -12,11 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a89aea5a-371f-4556-b527-ed722b67ce78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CityFinder.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CityFinder.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/city_finder.iml" afterPath="$PROJECT_DIR$/.idea/city_finder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CityFinder.cpp" afterPath="$PROJECT_DIR$/CityFinder.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CityFinder.h" afterPath="$PROJECT_DIR$/CityFinder.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="city_finder.iws" />
@@ -38,11 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="place_data_small.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/place_data_small.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -50,35 +57,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="place_data_small.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/place_data_small.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityFinder.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CityFinder.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CityFinder.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.22978723">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
-                <element signature="e#149#380#0" expanded="false" />
+                <element signature="e#115#273#0" expanded="false" />
+                <element signature="e#1415#1637#0" expanded="false" />
+                <element signature="e#1639#1869#0" expanded="false" />
+                <element signature="e#1870#2059#0" expanded="false" />
+                <element signature="e#2060#2242#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityFinder.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CityFinder.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CityFinder.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.076595746">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+              <folding>
+                <element signature="e#276#343#1" expanded="false" />
+                <element signature="e#759#845#0" expanded="false" />
+                <element signature="e#850#912#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +95,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CityFinder.cpp" />
         <option value="$PROJECT_DIR$/CityFinder.h" />
+        <option value="$PROJECT_DIR$/CityFinder.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -181,7 +185,7 @@
     <frame x="182" y="23" width="989" height="755" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24671385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24671385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -217,12 +221,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/CityFinder.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#276#343#1" expanded="false" />
+            <element signature="e#759#845#0" expanded="false" />
+            <element signature="e#850#912#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -230,27 +236,32 @@
     <entry file="file://$PROJECT_DIR$/place_data_small.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CityFinder.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.22978723">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#149#380#0" expanded="false" />
+            <element signature="e#115#273#0" expanded="false" />
+            <element signature="e#1415#1637#0" expanded="false" />
+            <element signature="e#1639#1869#0" expanded="false" />
+            <element signature="e#1870#2059#0" expanded="false" />
+            <element signature="e#2060#2242#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CityFinder.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.076595746">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
