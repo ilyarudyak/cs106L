@@ -12,8 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e97c787-2710-4254-aedf-68cbcebac281" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BoundedPQueue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KDTree.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KDTree.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Point.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../city_finder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../city_finder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kd_tree.iml" afterPath="$PROJECT_DIR$/.idea/kd_tree.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
     </list>
     <ignored path="kd_tree.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,12 +40,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <marker date="1461608645000" expanded="true" signature="54:108" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KDTree.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KDTree.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KDTree.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KDTree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <marker date="1461614527000" expanded="true" signature="461:499" placeholder="&lt;size_t N,ElemType&gt;" />
+                <marker date="1461614527000" expanded="true" signature="513:3936" placeholder="{...}" />
+                <marker date="1461614527000" expanded="true" signature="3994:4032" placeholder="&lt;size_t N,ElemType&gt;" />
+                <marker date="1461614527000" expanded="true" signature="4063:4093" placeholder="{...}" />
+                <marker date="1461614527000" expanded="true" signature="4095:4133" placeholder="&lt;size_t N,ElemType&gt;" />
+                <marker date="1461614527000" expanded="true" signature="4165:4195" placeholder="{...}" />
+                <marker date="1461614527000" expanded="true" signature="4197:4235" placeholder="&lt;size_t N,ElemType&gt;" />
+                <marker date="1461614527000" expanded="true" signature="4282:4326" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoundedPQueue.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BoundedPQueue.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Point.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Point.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+              <folding>
+                <marker date="1461614501000" expanded="true" signature="453:472" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="485:2030" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="2274:2293" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="2644:2663" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="2724:2743" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="2958:2977" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="3022:3052" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="3053:3072" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="3122:3152" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="3202:3221" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="3252:3269" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="3345:3364" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="3411:3434" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="3435:3454" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="3513:3536" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="3537:3556" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="3601:3633" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="3634:3653" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="3710:3742" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="3857:3876" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="3935:4074" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="4210:4229" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="4289:4352" placeholder="{...}" />
+                <marker date="1461614501000" expanded="true" signature="4353:4372" placeholder="&lt;size_t N&gt;" />
+                <marker date="1461614501000" expanded="true" signature="4432:4461" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,6 +131,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Point.h" />
+        <option value="$PROJECT_DIR$/KDTree.h" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -93,6 +184,16 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kd_tree" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kd_tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -103,8 +204,156 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Application.kd_tree">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kd_tree" TARGET_NAME="kd_tree" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kd_tree" TARGET_NAME="kd_tree" CONFIG_NAME="Debug">
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kd_tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kd_tree" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kd_tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kd_tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kd_tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kd_tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kd_tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -133,7 +382,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -166,6 +415,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1461608645000" expanded="true" signature="54:108" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KDTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Point.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+          <folding>
+            <marker date="1461614501000" expanded="true" signature="453:472" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="485:2030" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="2274:2293" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="2644:2663" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="2724:2743" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="2958:2977" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="3022:3052" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="3053:3072" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="3122:3152" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="3202:3221" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="3252:3269" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="3345:3364" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="3411:3434" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="3435:3454" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="3513:3536" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="3537:3556" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="3601:3633" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="3634:3653" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="3710:3742" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="3857:3876" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="3935:4074" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="4210:4229" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="4289:4352" placeholder="{...}" />
+            <marker date="1461614501000" expanded="true" signature="4353:4372" placeholder="&lt;size_t N&gt;" />
+            <marker date="1461614501000" expanded="true" signature="4432:4461" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KDTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <marker date="1461614527000" expanded="true" signature="461:499" placeholder="&lt;size_t N,ElemType&gt;" />
+            <marker date="1461614527000" expanded="true" signature="513:3936" placeholder="{...}" />
+            <marker date="1461614527000" expanded="true" signature="3994:4032" placeholder="&lt;size_t N,ElemType&gt;" />
+            <marker date="1461614527000" expanded="true" signature="4063:4093" placeholder="{...}" />
+            <marker date="1461614527000" expanded="true" signature="4095:4133" placeholder="&lt;size_t N,ElemType&gt;" />
+            <marker date="1461614527000" expanded="true" signature="4165:4195" placeholder="{...}" />
+            <marker date="1461614527000" expanded="true" signature="4197:4235" placeholder="&lt;size_t N,ElemType&gt;" />
+            <marker date="1461614527000" expanded="true" signature="4282:4326" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BoundedPQueue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
